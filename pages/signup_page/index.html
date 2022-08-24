@@ -4,9 +4,50 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Signup</title>
 </head>
 <body>
-    
+    <section class="container">
+        <div class="details_container">
+            <h2>Signup</h2>
+            <div class="details">
+                <div class="s1">
+                    <label for="firstname" class="text">First Name</label>
+                    <input type="text" name="firstname" placeholder="First Name" class="detail_box" required/><br>
+                </div>
+                <div class="s1">
+                    <label for="lastname" class="text">Last Name</label>
+                    <input type="text" name="lastname" placeholder="Last Name" class="detail_box" required/><br>
+                </div>
+                <div class="s1">
+                    <label for="gender" class="text">Gender</label>
+                    <select class="selectbox">
+                        <optgroup>Select
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                            <option value="others">Others</option>
+                        </optgroup>    
+                    </select>
+                </div>
+                <div class="s1">
+                    <label for="phone" class="text">Mobile Number</label>
+                    <input type="tel" name="phone" class="detail_box" placeholder="Mobile Number" required><br>
+                </div>
+                <div class="s1">
+                    <label for="email" class="text">Email</label>
+                    <input type="email" name="email" class="detail_box" placeholder="email@email.com" required><br>
+                </div>
+                <div class="s1">
+                    <label for="password" class="text">Password</label>
+                    <input type="password" name="password" class="detail_box" placeholder="Password" required><br>
+                </div>   
+            </div>
+            <button type="submit" class="submit">Submit</button>
+        </div>
+        <div class="image_container">
+            <img src="D:\Harikrishnan K Nair\College\Final Project\assets\signupbg.jpg" alt="chatbot">
+        </div>
+    </section>    
 </body>
 </html>
